@@ -62,7 +62,7 @@ The ingress.yaml file configures the Ingress resource for the Wisecow applicatio
 
 5. GitHub Actions Workflow
 
-The .github/workflows/deploy.yml file defines the CI/CD pipeline using GitHub Actions:
+The .github/workflows/pipine.yaml file defines the CI/CD pipeline using GitHub Actions:
 
 Build and Push: The workflow builds the Docker image and pushes it to the Docker registry.
 Deploy: The workflow deploys the updated image to the Kubernetes cluster.

@@ -24,10 +24,10 @@ a. Docker Registry Credentials
 
 we're pushing Docker images to a private registry, you'll need to provide your registry credentials:
 
-kubectl create secret docker-registry regcred \
-  --docker-server=your-registry-server> \
-  --docker-username=your-username> \
-  --docker-password=your-password> \
+kubectl create secret docker-registry regcred\
+  --docker-server=your-registry-server>\
+  --docker-username=your-username>\
+  --docker-password=your-password>\
   --docker-email=your-email>
 
 b.  TLS Configuration & Certificates

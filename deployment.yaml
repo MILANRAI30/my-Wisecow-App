@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: wisecow
-        image: your-docker-registry/wisecow:latest
+        image: your-docker-registry/wisecow:${IMAGE_TAG}
         ports:
         - containerPort: 4499
